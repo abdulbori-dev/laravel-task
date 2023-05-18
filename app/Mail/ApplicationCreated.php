@@ -41,7 +41,7 @@ class ApplicationCreated extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.application-created',
+            view: 'emails.applications-created',
         );
     }
 
